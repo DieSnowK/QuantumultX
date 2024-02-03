@@ -1,8 +1,8 @@
 var body = $response.body; // 声明一个变量body并以响应消息体赋值
 var obj = JSON.parse(body); // JSON.parse()将json形式的body转变成对象处理
 
-obj.svip_level = 1;
-obj.vip_level = 1;
+obj.svip_level = 2;
+obj.vip_level = 2;
 obj.is_sign = true;
 
 // {
